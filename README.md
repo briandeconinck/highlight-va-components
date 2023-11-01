@@ -1,2 +1,6 @@
-# highlight-va-components
-Quick and dirty proof of concept
+# Proof of Concept - Highlight VA Web Components
+This is quick and dirty and can definitely be improved, just a proof of concept!
+
+## Install the bookmarklet
+<a href="javascript:!function(){var a=document.createElement(%22style%22);a.innerText=%22%22,[%22va-accordion%22,%22va-additional-info%22,%22va-alert%22,%22va-back-to-top%22,%22va-banner%22,%22va-official-gov-banner%22,%22va-promo-banner%22,%22va-breadcrumbs%22,%22va-button%22,%22va-button-pair%22,%22va-card%22,%22va-checkbox%22,%22va-checkbox-group%22,%22va-crisis-line-modal%22,%22va-date%22,%22va-featured-content%22,%22va-file-input%22,%22va-link%22,%22va-loading-indicator%22,%22va-memorable-date%22,%22va-minimal-header%22,%22va-modal%22,%22va-need-help%22,%22va-notification%22,%22va-number-input%22,%22va-omb-info%22,%22va-on-this-page%22,%22va-pagination%22,%22va-privacy-agreement%22,%22va-process-list%22,%22va-progress-bar%22,%22va-segmented-progress-bar%22,%22va-radio%22,%22va-search-input%22,%22va-select%22,%22va-sidenav%22,%22va-table%22,%22va-telephone%22,%22va-text-input%22,%22va-textarea%22].forEach((e=>{console.log(e),a.innerText+=e+%22 { outline: dashed 0.5rem red; }%22,a.innerText+=e+':after { content: %22'+e+'%22; color: #fff; background-color: red; padding: 0.5rem; }'})),document.head.appendChild(a)}();">Highlight VA Components</a>
+
