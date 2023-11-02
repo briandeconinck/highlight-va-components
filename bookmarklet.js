@@ -46,8 +46,10 @@
 
     components.forEach((element) => {
         console.log(element);
-        styles.innerText += element + ' { outline: dashed 0.5rem red; }';
-        styles.innerText += element + ':after { content: "' + element + '"; color: #fff; background-color: red; padding: 0.5rem; }';
+        styles.innerText += element + ' { outline: dashed 0.25rem purple; }';
+        styles.innerText += element + ':after { content: "' + element + '"; color: #fff; background-color: purple; padding: 0.5rem; }';
+        styles.innerText += element + '[uswds] { outline: dotted 0.25rem darkred; }';
+        styles.innerText += element + '[uswds]:after { content: "' + element + '"; color: #fff; background-color: darkred; padding: 0.5rem; }';
         });
 
     document.head.appendChild(styles);
