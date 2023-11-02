@@ -49,7 +49,7 @@
         styles.innerText += element + ' { outline: dashed 0.25rem purple; }';
         styles.innerText += element + ':after { content: "' + element + '"; color: #fff; background-color: purple; padding: 0.5rem; }';
         styles.innerText += element + '[uswds] { outline: dotted 0.25rem darkred; }';
-        styles.innerText += element + '[uswds]:after { content: "' + element + '"; color: #fff; background-color: darkred; padding: 0.5rem; }';
+        styles.innerText += element + '[uswds]:after { content: "' + element + ' [uswds v3]"; color: #fff; background-color: darkred; padding: 0.5rem; }';
         });
 
     document.head.appendChild(styles);
